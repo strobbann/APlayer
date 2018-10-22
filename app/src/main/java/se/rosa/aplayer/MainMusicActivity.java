@@ -48,6 +48,5 @@ public class MainMusicActivity extends AppCompatActivity implements ToolbarFragm
     @Override
     public void onMorePressed() {
         MusicRepository musicRepository = MusicRepository.getInstance(this);
-        Toast.makeText(this, String.valueOf(musicRepository.getcount()), Toast.LENGTH_SHORT).show();
     }
 }
